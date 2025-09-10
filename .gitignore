@@ -1,0 +1,36 @@
+# .gitignore
+# Ignora file temporanei, di sistema e di sviluppo comuni
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# File temporanei
+*.tmp
+*.log
+*.swp
+
+# Cartelle di sistema/editor
+.vscode/
+.idea/
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Output build
+/dist/
+/build/
+
+# Ambiente virtuale Python
+.venv/
+venv/
+
+# Altri file personali
+.env
